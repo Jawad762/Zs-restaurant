@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+
+.burrito_bg {
+    background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://cdn.britannica.com/13/234013-050-73781543/rice-and-chorizo-burrito.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .burger_bg {
+    background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://wallpaperswide.com/download/mcdonalds_burger_and_fries-wallpaper-3840x1600.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+
+.montserrat_ {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.galada_ {
+  font-family: 'Galada', cursive;
+}
+
